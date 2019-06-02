@@ -1,7 +1,6 @@
 # weather_app
 This is app which provides you with weather of all cities with changing background and all information about the weather.
  All information about weather was from
-           https://openweathermap.org/">https://openweathermap.org/
+           https://openweathermap.org/. here i was using SASS. it Shows weather for cityes and countries with proper background.
         
-          Here i was using SASS. It shows weather for the cities
-          and countries with proper background.
+          
