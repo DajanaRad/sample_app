@@ -79,4 +79,7 @@ body {
     margin: 0.2rem auto; }
   .main-heading {
     font-size: 2rem;
-    padding: 0} }
+    padding: 0} 
+#content {
+  height: calc(100vh - 70px);}
+}
