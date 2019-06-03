@@ -22,7 +22,7 @@ function searchWeather() {
     var http = new XMLHttpRequest();
     const apiKey = "aac5eb7239e7dc4512acd0517d459bcf";
     const url =
-      "http://api.openweathermap.org/data/2.5/weather?q=" +
+      "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" +
       cityName +
       "&units=metric&appid=" +
       apiKey;
