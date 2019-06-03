@@ -16,7 +16,7 @@ body {
 
 #content {
   height: calc(100vh - 270px);
-  background-position: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   margin-top: 3rem; }
