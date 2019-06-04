@@ -130,7 +130,7 @@ Object.defineProperty(Weather.prototype, "humidity", {
     return this._humidity;
   },
   set: function(value) {
-    return (this._humidity = value / 4 + "%");
+    return (this._humidity = value + "%");
   }
 });
 Object.defineProperty(Weather.prototype, "wind", {
