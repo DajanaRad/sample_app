@@ -1,6 +1,5 @@
 const searchButton = document.querySelector(".show-weather button");
 const searchCity = document.querySelector("#city");
-
 const showCity = document.querySelector(".weather-city");
 const showDescription = document.querySelector(".weather-description");
 const showTemperature = document.querySelector(".weather-temperature");
@@ -9,8 +8,6 @@ let showWeather = document.querySelectorAll(".weather div");
 const showWind = document.querySelector(".weather-wind");
 const clouds = document.querySelector(".clouds img");
 const showHumidity = document.querySelector(".weather-humidity");
-searchButton.addEventListener("click", searchWeather);
-
 const backgroundMain = document.querySelector("body");
 
 function searchWeather() {
@@ -152,3 +149,10 @@ Object.defineProperty(Weather.prototype, "temperature", {
     return (this._temperature = (value * 1.8 + 32).toFixed(2) + "F.");
   }
 });
+
+searchButton.addEventListener("click", searchWeather);
+document.onkeydown = function() {
+  if (window.event.keyCode == "13") {
+    searchWeather();
+  }
+};
