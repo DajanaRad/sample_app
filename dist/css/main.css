@@ -1,12 +1,12 @@
 html {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-sizing: border-box;
-  overflow: auto;}
+  overflow: auto; }
 
 body {
   background-size: cover !important;
   background-repeat: no-repeat;
-  overflow:auto;}
+  overflow: auto; }
 
 .main-heading {
   color: #074763;
@@ -17,9 +17,9 @@ body {
   padding: 1rem; }
 
 #content {
-/*   height: calc(100vh - 270px); */
   text-align: center;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  height: calc(100vh - 290px); }
 
 .show-weather {
   text-align: center; }
@@ -82,7 +82,6 @@ body {
   .main-heading {
     font-size: 2rem;
     padding: 0.2rem;
-    margin: 0;} 
-#content {
-  height: calc(100vh - 70px);}
-}
+    margin: 0; }
+  #content {
+    height: calc(100vh - 145px); } }
